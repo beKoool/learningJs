@@ -1,4 +1,6 @@
 
+<img src="https://user-images.githubusercontent.com/76424367/195898471-ded95f55-2056-44ac-a9da-2d52bd822841.png" alt="drawing" width="800"/>
+
 # Week 1 👨‍💻
 
 Hello guys, so I am in the first week of learning JavaScript. At first, lets talk about `What is JavaScript?`. JavaScript is a powerful, flexible, and fast programming language now being used for increasingly complex web development and beyond!
