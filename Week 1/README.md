@@ -21,7 +21,7 @@ So you can run JavaScript code using various methods. Some of them are:
 - [Conditionals](#conditionals)
 
 
-## Variables 📦
+## Variables
 [Variables](https://developer.mozilla.org/en-US/docs/Glossary/Variable) are containers that store values. Variables are assigned a descriptive name so that the programmers can call them to assign a specific value.
 
 **Example:**
@@ -56,7 +56,7 @@ Data Types are the classifications we give to the different kinds of data that w
 | Symbol  | Symbols are unique identifiers, useful in more complex coding. **No need to worry about these for now.**  |  `const mySymbol = Symbol('id');` |
 
 
-## Comments 🙈
+## Comments
 
 Comments are snippets of text that can be added along with code. The text marked as comment is ignored by the browser. Writing comment in JavaScript is quite similar writing comments in CSS:
 
@@ -72,7 +72,7 @@ Hello, sup? I am a multi-line comment.
 */
 ```
 
-## Operators 👨‍🔬
+## Operators
 An [operator](https://developer.mozilla.org/en-US/docs/Glossary/Operator) is a mathematical symbol that produces a result based on two values (or variables). Some of the simplest operators of JavaScript are given below: 
 
 
@@ -85,9 +85,9 @@ An [operator](https://developer.mozilla.org/en-US/docs/Glossary/Operator) is a m
 |  Not,Does-not-equal | This returns the logically opposite value of what it precedes. It turns a `true` into a `false`, etc.. When it is used alongside the Equality operator, the negation operator tests whether two values are _not_ equal.  | `!`,`!==`  | For NOT: `let myNumber = 2;` `!(myNumber === 2);` For Does-not-equal: `let year = 2022;` `year !== 2022;` |
 
 
->Note: These are only the basic operators of JavaScript. To learn more about objects, visit to [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
+> Note: These are only the basic operators of JavaScript. To learn more about objects, visit to [MDN Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators).
 
-## Conditionals ✌
+## Conditionals
 
 [Conditionals](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#conditionals) take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another. A very common form of conditionals is the `if...else` statement. 
 #### Example:
