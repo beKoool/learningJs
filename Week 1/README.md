@@ -19,6 +19,7 @@ So you can run JavaScript code using various methods. Some of them are:
 - [Comments](#comments)
 - [Operators](#operators)
 - [Conditionals](#conditionals)
+- [Functions](#functions)
 
 
 ## Variables
@@ -90,8 +91,9 @@ An [operator](https://developer.mozilla.org/en-US/docs/Glossary/Operator) is a m
 ## Conditionals
 
 [Conditionals](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics#conditionals) take an expression, which is code that evaluates to determine a value, and checks if it is `true` or `false`. If it’s `true`, we can tell our program to do one thing — we can even account for `false` to do another. A very common form of conditionals is the `if...else` statement. 
-#### Example:
+#### Examples:
 ```javascript
+// If.. Else statements
 let age = 18;
 if (age >= 18) {
   console.log("Yay, you can get a driving license!");
@@ -100,6 +102,94 @@ if (age >= 18) {
 }
 ```
 >So in the code given above, we are checking the value of age to find if it is more than or equal to 18. If the age is more than or equal to 18, the first block of code runs and if the age is less than 18, the second block of code runs.
+
+```javascript
+// Switch keyword
+const fruit = 'Mangoes';
+switch (fruit) {
+  case 'Mangoes':
+    console.log('Mangoes are yummy.');
+    break;
+  case 'Oranges':
+    console.log('Oranges are tasty.');
+    break;
+  case 'Papayas':
+    console.log('Papayas are fine.');
+    break;
+  default:
+    console.log(`Sorry, we are out of ${fruit}.`);
+}
+```
+
+```javascript
+// Ternary Operators
+let marks = prompt('Enter your marks :');
+let result = (marks >= 40) ? 'pass' : 'fail';
+console.log(`You ${result} the exam.`);
+```
+
+## Functions
+[Functions](https://developer.mozilla.org/en-US/docs/Glossary/Function) are one of the fundamental building blocks in JavaScript. Functions can be passed one or more values and can return a value at the end of their execution. In order to use a function, you must define it somewhere in the scope where you wish to call it.
+
+### Built-in browser functions:
+The JavaScript language has many built-in functions to allow you to do useful things without having to write all that code yourself. Some of the are given below 🔽:
+
+```javascript
+const randomNumber = Math.random();
+// the random() function generates a random number between 
+// 0 and up to but not including 1, and returns that number
+```
+
+```javascript
+const myString = 'I am a string';
+const newString = myString.replace('string', 'sausage');
+console.log(newString);
+// the replace() string function takes a source string,
+// and a target string and replaces the source string,
+// with the target string, and returns the newly formed string
+```
+
+###  Function Declaration
+
+Function declarations are used to create named functions. Function declarations are built from:
+
+-   The  `function`  keyword.
+-   The function name.
+-   An optional list of parameters separated by commas enclosed by a set of parentheses  `()`.
+-   A function body enclosed in a set of curly braces  `{}`.
+
+### Calling Functions
+
+Functions can be called, or executed, elsewhere in code using parentheses following the function name. When a function is called, the code inside its function body runs. 
+
+The example code given below contains a function named  `product()`  that takes in two values and prints their product:
+
+```javascript
+function product(number1, number2) {
+ console.log(number1 * number2);
+}
+
+product(2,4);
+```
+### Return Keyword
+
+Functions return (pass back) values using the  `return`  keyword.  `return`  ends function execution and returns the specified value to the location where it was called.
+
+```javascript
+// With return
+function  sum(num1, num2)  {
+	return num1 + num2;
+}
+sum(1,2); //OUTPUT = 3
+
+// Without return, so the function doesn't output the sum
+function  sum(num1, num2)  {
+	num1 + num2;
+}
+sum(1,2); //OUTPUT = undefined
+```
+
+> Note: If you want to know more about functions and its types like Arrow functions, Anonymous functions,etc. you can visit the [MDN Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Functions) or [Codecademy docs](https://www.codecademy.com/resources/docs/javascript/functions). 😁
 
 ## Ending Note 🧡
 
