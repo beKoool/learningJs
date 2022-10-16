@@ -1,7 +1,7 @@
 # Learning javaScript 👨‍💻
-Hello guys, This repository has been made so that I can track my progress of **learning javaScript** from a basic level to a bit of advanced level. I will be pushing all the knowledge that I have on various topics of js with the code that I have written which might be in the form of some fun and interactive projects ✌. `#ffffff` 
+Hello guys, This repository has been made so that I can track my progress of **learning javaScript** from a basic level to a bit of advanced level. I will be pushing all the knowledge that I have on various topics of js with the code that I have written which might be in the form of some fun and interactive projects ✌. 
 
-> `Consistency is more important that perfection ✊`
+> Consistency is more important that perfection ✊.
 
 I will try my best to be consistent on pushing my progress to this repo about once a week so that I can be consistent in learning js which not only helps me to learn quickly but also helps me to be productive in life 😉.
 
