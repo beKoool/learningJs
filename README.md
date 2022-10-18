@@ -1,4 +1,5 @@
-<img src="https://user-images.githubusercontent.com/76424367/196314196-0b35aaec-f947-4cac-aa51-4de17a25868c.png" width=720px>
+
+![Banner](https://user-images.githubusercontent.com/76424367/196314196-0b35aaec-f947-4cac-aa51-4de17a25868c.png)
 
 # Learning javaScript 👨‍💻
 Hello guys, This repository has been made so that I can track my progress of **learning javaScript** from a basic level to a bit of advanced level. I will be pushing all the knowledge that I have on various topics of js with the code that I have written which might be in the form of some fun and interactive projects ✌. 
