@@ -195,4 +195,5 @@ sum(1,2); //OUTPUT = undefined
 
 Thank you for visiting this repository ! I am trying my best to be consistent in Learning JavaScript so that I can achieve my dreams in life 😉. Please suggest me some ways to improve on tracking my progress on this repository and feel free to give your feedbacks to me ✌.
 
-Made with 💖by [TheCoolGDev](https://www.github.com/TheCoolGDev)
+Made with 💖by [beKool.sh](https://www.github.com/beKoool)
+
